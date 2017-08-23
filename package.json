@@ -2,11 +2,11 @@
   "name": "newman-postman",
   "version": "1.0.0",
   "description": "Project for starter",
-  "directories":{
-	  "test":"tests"
+  "directories": {
+    "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run/Jsonplaceholder.com.postman_collection.json"
+    "api-tests-production": "newman run tests/newmansample.postman_collection.json"
   },
   "author": "mico",
   "dependencies": {
